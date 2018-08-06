@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<title>Let's Go NYC</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyCPNAgwzGrjPZwDYRL3AOTeWJjl_Bg56sw",
+        authDomain: "lets-go-nyc.firebaseapp.com",
+        databaseURL: "https://lets-go-nyc.firebaseio.com",
+        projectId: "lets-go-nyc",
+        storageBucket: "",
+        messagingSenderId: "897522581141"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand"></a>
+            <img id="image" src="https://mail.google.com/mail/u/0/?ui=2&ik=becdac41ef&view=fimg&th=164b2c3b8c07b5ee&attid=0.1.1&disp=emb&attbid=ANGjdJ92UsQTTRG30ZGfDZakDD3zLOje4ZLqRRBvo4TwAdgCbkAoH7-6WqWIOd6hwEbBDcunmRzCpcgT9775IQFXPvBrxGb94xbqcYCJu_0_jmOiFgi4k8xYjeR9pJA&sz=w496-h160&ats=1532959601925&rm=164b2c3b8c07b5ee&zw&atsh=1">
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </nav>
+
+        <div class="row">
+            <img id="background-image" src="http://res.cloudinary.com/simpleview/image/upload/v1519670032/clients/newyorkcity/Empire_State_Building_Observatory_manhattan_nyc_Julienne_Schaer_055_3f39d2d1-61fd-4d1b-b931-8590bf4c63a7.jpg"></img>
+            <div class="col-3" id="categories">
+                <ul class="list-group">
+                    <li class="list-group-item" <button id= "sports">Sports</li>
+                    <li class="list-group-item" <button id= "concerts">Concerts</li>
+                    <li class="list-group-item" <button id= "restaurants">Restaurants</li>
+                    <li class="list-group-item" <button id= "museums">Museums</li>
+                    <li class="list-group-item" <button id= "parks">Parks</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-3" id="boroughs">
+                <ul class="list-group">
+                    <li class="list-group-item">The Bronx</li>
+                    <li class="list-group-item">Brooklyn</li>
+                    <li class="list-group-item">Manhattan</li>
+                    <li class="list-group-item">Queens</li>
+                    <li class="list-group-item">Staten Island</li>
+                </ul>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <h1 class="display-4">About Us</h1>
+            <p class="lead">Co-founders Stephanie Martinez and Julian Coley created this website in order to help those that want to learn more about the city and not just do the same things over and over again.</p>
+            <hr class="my-4">
+            <p></p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </div>
+    </body>
+
+</head>
+
+
+</html>

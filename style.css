@@ -1,0 +1,22 @@
+#image {
+    width: 15%;
+    height: 50px;
+    position: absolute;
+}
+
+#background-image {
+    height: 800px;
+    width: 100%;
+}
+
+#boroughs {
+    position: absolute;
+    right: 50px;
+    bottom: 350px; 
+}
+
+#categories {
+    bottom: 710px;
+    
+}
+
